@@ -1,0 +1,53 @@
+/* For SearchElement.vue */
+
+.input {
+  position: relative;
+  border-radius: 2rem;
+  border-color: #33363a;
+  border-style: solid;
+  font-weight: 700;
+  font-size: larger;
+  padding: 0.5rem;
+  margin-right: 2rem;
+  background: linear-gradient(to bottom, #fff 50%, #d8e5ea 50%);
+  text-align: center;
+  z-index: 9000;
+}
+
+.searchButton {
+  position: relative;
+  left: 95% !important;
+  transform: translateY(-75%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.buttonImage {
+  display: fixed;
+  width: 4rem;
+  z-index: 9999;
+}
+
+.buttonImage:active {
+  color: #ffffff;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(103%)
+    contrast(103%) !important;
+}
+
+.input:focus {
+  /* color: #fff; */
+  border-color: #fff;
+  filter: invert(100%) sepia(100%) hue-rotate(178deg) brightness(100%) contrast(98%) grayscale(100%);
+  background: linear-gradient(to bottom, #000 100%) !important;
+  background-color: #000 !important;
+}
+
+.inputBox {
+  position: fixed;
+  align-content: center;
+  top: 0%;
+  left: 0%;
+  transform: translate(-60%, -375%);
+}

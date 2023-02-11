@@ -1,0 +1,137 @@
+.invisibleCard{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border-radius: 1.2rem;
+  width: 500px;
+  height: 700px;
+  z-index: -2;
+}
+
+.typeTheme {
+  background-color: var(--vt-c-green);
+  border-radius: 1.2rem;
+  width: 500px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pokemonPicture {
+  position: fixed;
+  top: 54%;
+  transform: translateX(-3.13%);
+}
+
+.pokemonNumber {
+  background-color: #ffffff00 !important;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: large;
+  color: black;
+}
+
+.pokemonInfoBox {
+  background-color: #ffffffec !important;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -31%);
+  border-radius: 0rem 0rem 1rem 1rem;
+  width: 490px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pokemonName {
+  color: var(--color-text);
+  top: 15%;
+  font-weight: 700;
+}
+.pokemonPicture {
+  position: fixed;
+  top: -5%;
+  left: 20%;
+  height: 20rem;
+  z-index: 2;
+}
+
+.typeList{
+  top: 17.5%;
+  display: inline-block;
+  border-radius: 2rem;
+  border-width: 3px;
+  justify-content: space-between;
+
+}
+
+.pokemonTypes {
+  display: inline-block;
+  background-color: var(--vt-c-green);
+  color: #000;
+  padding: 0.5rem 2.5rem;
+  border-radius: 2rem;
+  list-style-type: none;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.separator {
+  color: var(--vt-c-green);
+  width: 90%;
+  margin: auto;
+  margin-top: 23%;
+  margin-bottom: 5%;
+  transform: rotate(0deg);
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 2rem;
+}
+
+.statsBox {
+  color: var(--color-text);
+  position: relative;
+  transform: translateY(-17%);
+  left: auto;
+  z-index: 50;
+}
+
+.baseStats {
+  font-size: xx-large;
+  margin-bottom: 1rem;
+
+}
+
+.statsList {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: large;
+  list-style-type: none;
+  font-weight: 600;
+}
+
+.pokemonStats {
+  font-display: left;
+  font-weight: 600;
+  margin-bottom: 2rem
+}
+
+p {
+  margin-bottom: 0.6rem;
+}
+
+.searchBox {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  margin-bottom: 2rem !important;
+}
+

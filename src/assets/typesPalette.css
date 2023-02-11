@@ -1,0 +1,107 @@
+.grass{
+  background-color: #9BCC50 !important;
+  border-color: #9BCC50 !important;
+  color: #000 !important;
+}
+
+.poison{
+  background-color: #B97FC9 !important;
+  border-color: #B97FC9 !important;
+  color: #FFF !important;
+}
+
+.fire{
+  background-color: #EC7C26 !important;
+  border-color: #EC7C26 !important;
+  color: #FFF !important;
+}
+
+.flying{
+  background: linear-gradient(to bottom,#61C7EF 50%, #BDB9B8 50%) !important;
+  border-color: linear-gradient(to bottom,#61C7EF 50%, #BDB9B8 50%) !important;
+  color: #000 !important;
+}
+
+.water{
+  background-color: #4993C4 !important;
+  border-color: #4993C4 !important;
+  color: #FFF !important;
+}
+
+.bug{
+  background-color: #729F3F !important;
+  border-color: #729F3F !important;
+  color: #FFF !important;
+}
+
+.normal{
+  background-color: #A4ACAF !important;
+  border-color: #A4ACAF !important;
+  color: #000 !important;
+}
+
+.electric{
+  background-color: #EED535 !important;
+  border-color: #EED535 !important;
+  color: #000 !important;
+}
+
+.ground{
+  background: linear-gradient(to bottom, #F6DE3F 50%, #AA9741 50%) !important;
+  border-color: linear-gradient(to bottom, #F6DE3F 50%, #AA9741 50%) !important;
+  color: #000 !important;
+}
+
+.fairy{
+  background-color: #F5B8E8 !important;
+  border-color: #F5B8E8 !important;
+  color: #000 !important;
+}
+
+.fighting{
+  background-color: #D56823 !important;
+  border-color: #D56823 !important;
+  color: #FFF !important;
+}
+
+.psychic{
+  background-color: #EE66B9 !important;
+  border-color: #EE66B9 !important;
+  color: #FFF !important;
+}
+
+.rock{
+  background-color: #A38D22 !important;
+  border-color: #A38D22 !important;
+  color: #FFF !important;
+}
+
+.steel{
+  background: #9FB7B8 !important;
+  border-color: #9FB7B8 !important;
+  color: #000 !important;
+}
+
+.ice{
+  background-color: #60C5E8 !important;
+  border-color: #60C5E8 !important;
+  color: #000 !important;
+}
+
+.dragon{
+  background: linear-gradient(to bottom, #53A4CF 50%, #EC6D57 50%) !important;
+  border-color: linear-gradient(to bottom, #53A4CF 50%, #EC6D57 50%) !important;
+  color: #FFF !important;
+}
+
+.dark{
+  background-color: #707070 !important;
+  border-color: #707070 !important;
+  color: #FFF !important;
+}
+
+.ghost{
+  background-color: #7B61A2 !important;
+  border-color: #7B61A2 !important;
+  color: #FFF !important;
+}
